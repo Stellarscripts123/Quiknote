@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.gradient-text {
+    background-image: linear-gradient(90deg, rgba(166,104,208,1) 0%, rgba(232,80,80,1) 50%, rgba(252,176,69,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+header h1 {
+    display: inline;
+    margin-right: 150px;
+}
+nav {
+    display: inline;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px; /* Increase the right margin to create space between links */
+}
+#editor {
+    width: 80%;
+    height: 300px;
+    margin: 20px auto; /* Center the element horizontally */
+    padding: 40px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    display: block; /* Ensures the margin auto works correctly */
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
