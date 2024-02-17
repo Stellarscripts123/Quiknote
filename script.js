@@ -1,7 +1,7 @@
 let currentFile = null;
 let editor = document.getElementById('editor');
 
-
+  
 function saveAsFile() {
     let fileName = prompt('Enter file name:');
     if (fileName) {
